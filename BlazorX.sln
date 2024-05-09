@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorX", "BlazorX\BlazorX.csproj", "{F8FAE702-A744-437E-912A-C8E713E5448B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FAE702-A744-437E-912A-C8E713E5448B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FAE702-A744-437E-912A-C8E713E5448B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FAE702-A744-437E-912A-C8E713E5448B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FAE702-A744-437E-912A-C8E713E5448B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
