@@ -8,7 +8,7 @@ env:
 phases:
   install:
     runtime-versions:
-    dotnet: ${DOTNET_CORE_RUNTIME}
+      dotnet: ${DOTNET_CORE_RUNTIME}
   
   pre_build:
     commands:
