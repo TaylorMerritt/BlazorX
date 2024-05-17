@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     PROJECT: BlazorX
-    DOTNET_CORE_RUNTIME: 8.1
+    DOTNET_CORE_RUNTIME: 8.0
 
 phases:
   install:
