@@ -27,7 +27,7 @@ artifacts:
   files:
     - '**/*'
   base-directory: ./build_output
-  discard-paths: now
+  discard-paths: no
 
 #reports:
 #  ${PROJECT}:
