@@ -2,9 +2,15 @@ using BlazorX.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Get the PORT environment variable
+var port = Environment.GetEnvironmentVariable("PORT") ?? "80";
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+// Set the URLs the application should listen on
+builder.WebHost.UseUrls($"http://*:{port}");
 
 var app = builder.Build();
 
