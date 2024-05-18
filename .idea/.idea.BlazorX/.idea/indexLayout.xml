@@ -3,7 +3,10 @@
   <component name="UserContentModel">
     <attachedFolders />
     <explicitIncludes>
+      <Path>.github</Path>
       <Path>buildspec.yml</Path>
+      <Path>infrastructure</Path>
+      <Path>railway.json</Path>
     </explicitIncludes>
     <explicitExcludes />
   </component>

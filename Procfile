@@ -1,1 +1,0 @@
-web: dotnet exec ./BlazorX.dll --urls http://0.0.0.0:5000/
