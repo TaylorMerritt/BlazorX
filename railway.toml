@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./BlazorX/Dockerfile"
+
+[deploy]
+startCommand = "dotnet BlazorX.dll"
+restartPolicyType = "never"
