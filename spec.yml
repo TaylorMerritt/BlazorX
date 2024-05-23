@@ -1,5 +1,0 @@
-name: blazorx
-services:
-  - name: web
-    image:
-      dockerfile_path: BlazorX/Dockerfile
